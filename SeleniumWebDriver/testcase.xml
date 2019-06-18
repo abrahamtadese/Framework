@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="mesfin test case">
+  <test  name="mestin demo test">
+  <parameter name="n" value="user1"/>
+  <parameter name="s" value="password1"/>
+    <classes>  
+       <class name="com_DataProvider.NewTest_FBLoginTest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [demotestcases]">
+  <test thread-count="5" name="dataprovider test(failed)">
+    <classes>
+      <class name="com.testNGDemo.NewTest_TestA">
+        <methods>
+          <include name="before"/>
+          <include name="TestA"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.testNGDemo.NewTest_TestA -->
+    </classes>
+  </test> <!-- dataprovider test(failed) -->
+</suite> <!-- Failed suite [demotestcases] -->

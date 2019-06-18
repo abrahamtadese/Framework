@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression test]">
+  <test thread-count="5" name="piit(failed)">
+    <parameter name="search" value="sky"/>
+    <classes>
+      <class name="frameworkDemo.NewTest_PasswdTest">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- frameworkDemo.NewTest_PasswdTest -->
+    </classes>
+  </test> <!-- piit(failed) -->
+</suite> <!-- Failed suite [regression test] -->

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="kaldis test suite">
+  <test  name="Kaldis test">
+    <classes>
+      <class name="com_DataProvider.NewTest_KaldisHomePageTest"/>
+    </classes>
+  </test> 
+</suite> 
