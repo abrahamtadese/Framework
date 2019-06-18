@@ -1,0 +1,10 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="General suite">
+  <test  name="General test">
+    <classes>
+      <class name="com.maven.test.ChemTest"/>
+      <class name="com.maven.test.ComputerTest"/>
+      <class name="com.maven.test.MathTest"/>
+    </classes>
+  </test> 
+</suite> 
