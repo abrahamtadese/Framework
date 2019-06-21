@@ -7,6 +7,8 @@ import Utility.StartBrowser;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.AfterClass;
 
 public class Ebay_accountTest {
@@ -14,26 +16,31 @@ public class Ebay_accountTest {
 	WebDriver driver;
 	
 	
-  @Test
-  public void ebaysignIn() {
+	
+  @Test(priority=2)
+  public void ebaysignIn() throws Exception {
 	  
+	 
+	
+	  EbayLogIn obj = new  EbayLogIn(driver);
 	  
-	  driver.findElement(By.xpath("//a[contains(text(),'Sign in')]")).click();
-	  driver.findElement(By.xpath("//a[@id='InLineCreateAnAccount']")).click();
-	  driver.findElement(By.xpath("//input[@id='firstname']")).sendKeys("thomas");
-	  driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys("Jefferson");
-	  driver.findElement(By.xpath("//input[@id='email']")).sendKeys("thomas@gmail.com");
-	  driver.findElement(By.xpath("//input[@id='PASSWORD']")).sendKeys("abcdef1234");
-	  driver.findElement(By.xpath("//button[@id='ppaFormSbtBtn']")).click();
-	  
-	  
-	  
-	  
-	  
+	  obj.ebaysingIn("thomas", "abebe", "thom@gmail.com", "123erft");
+	  Thread.sleep(2000);
 	  
   }
+	  @Test(priority=1)
+	  public void ebaylogIn() throws Exception {
+		  
+		  
+		  EbayLogIn ob = new EbayLogIn(driver);
+		  ob.EbayLogInp("abebe", "mulu", "abe@gmail", "1224yrtf");
+		  Thread.sleep(2000);
+		  
+	  }
+	  
+  
   @BeforeClass
-  public void setUP() {
+  public void setUp() {
 	  
 	 driver = StartBrowser.launchBrowser("chrome",  "https://www.ebay.com/");
   }
