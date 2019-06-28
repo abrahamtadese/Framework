@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Netflix suite">
+  <test  name="netflix test">
+    <classes>
+      <class name="com.netflix.testcase.NetflixTest"/>
+    </classes>
+  </test> 
+</suite> 
+            

@@ -18,11 +18,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Selenium Jar Files/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Jar Files/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Selenium Jar Files/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Jar Files/poi-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Selenium Jar Files/selenium-java-2.53.1.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Jar Files/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium Jar Files/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

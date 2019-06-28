@@ -3,21 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="captureScreenShot.FacebookFailedTest">
+      <class name="captureScreenShot.FBScreenshot">
         <methods>
+          <include name="abc"/>
           <include name="tearDown"/>
+          <include name="shot"/>
           <include name="setUp"/>
-          <include name="captureScreenShot"/>
-          <include name="facebooktesting"/>
         </methods>
-      </class> <!-- captureScreenShot.FacebookFailedTest -->
-      <class name="captureScreenShot.FacebookScreenshot">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="screenShot"/>
-        </methods>
-      </class> <!-- captureScreenShot.FacebookScreenshot -->
+      </class> <!-- captureScreenShot.FBScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

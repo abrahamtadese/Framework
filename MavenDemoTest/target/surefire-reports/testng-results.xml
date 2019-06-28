@@ -2,64 +2,54 @@
 <testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="8948" started-at="2019-06-18T04:45:25Z" finished-at="2019-06-18T04:45:34Z">
+  <suite name="Surefire suite" duration-ms="6485" started-at="2019-06-24T15:38:36Z" finished-at="2019-06-24T15:38:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8948" started-at="2019-06-18T04:45:25Z" finished-at="2019-06-18T04:45:34Z">
+    <test name="Surefire test" duration-ms="6485" started-at="2019-06-24T15:38:36Z" finished-at="2019-06-24T15:38:42Z">
       <class name="com.maven.test.ChemTest">
-        <test-method status="PASS" signature="multi()[pri:1, instance:com.maven.test.ChemTest@22f71333]" name="multi" duration-ms="3" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+        <test-method status="PASS" signature="multi()[pri:1, instance:com.maven.test.ChemTest@783e6358]" name="multi" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multi -->
-        <test-method status="PASS" signature="div()[pri:2, instance:com.maven.test.ChemTest@22f71333]" name="div" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+        <test-method status="PASS" signature="div()[pri:2, instance:com.maven.test.ChemTest@783e6358]" name="div" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
       </class> <!-- com.maven.test.ChemTest -->
-      <class name="com.maven.test.ComputerTest">
-        <test-method status="PASS" signature="sum()[pri:1, instance:com.maven.test.ComputerTest@13969fbe]" name="sum" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sub()[pri:2, instance:com.maven.test.ComputerTest@13969fbe]" name="sub" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sub -->
-      </class> <!-- com.maven.test.ComputerTest -->
-      <class name="captureScreenShot.FacebookFailedTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:captureScreenShot.FacebookFailedTest@6cd8737]" name="setUp" is-config="true" duration-ms="5715" started-at="2019-06-18T04:45:25Z" finished-at="2019-06-18T04:45:31Z">
+      <class name="captureScreenShot.FBSceeenshotFailedTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:captureScreenShot.FBSceeenshotFailedTest@4e04a765]" name="setUp" is-config="true" duration-ms="5445" started-at="2019-06-24T15:38:36Z" finished-at="2019-06-24T15:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="captureScreenShot()[pri:0, instance:captureScreenShot.FacebookFailedTest@6cd8737]" name="captureScreenShot" duration-ms="2080" started-at="2019-06-18T04:45:31Z" finished-at="2019-06-18T04:45:33Z">
+        <test-method status="FAIL" signature="shotRun()[pri:0, instance:captureScreenShot.FBSceeenshotFailedTest@4e04a765]" name="shotRun" duration-ms="54" started-at="2019-06-24T15:38:41Z" finished-at="2019-06-24T15:38:41Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //input[@id='u_0_e'1] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='u_0_e'1]' is not a valid XPath expression.
-  (Session info: chrome=74.0.3729.169)
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //input[@id='u_0_e'123] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='u_0_e'123]' is not a valid XPath expression.
+  (Session info: chrome=75.0.3770.100)
   (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-V2OLUBP4', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49730}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 35e6af338dad47b196050837903283b1
-*** Element info: {Using=xpath, value=//input[@id='u_0_e'1]}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 8da4e0065ef23512f8dc230d578631cc
+*** Element info: {Using=xpath, value=//input[@id='u_0_e'123]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='u_0_e'1] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='u_0_e'1]' is not a valid XPath expression.
-  (Session info: chrome=74.0.3729.169)
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='u_0_e'123] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='u_0_e'123]' is not a valid XPath expression.
+  (Session info: chrome=75.0.3770.100)
   (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-V2OLUBP4', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49730}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 35e6af338dad47b196050837903283b1
-*** Element info: {Using=xpath, value=//input[@id='u_0_e'1]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 8da4e0065ef23512f8dc230d578631cc
+*** Element info: {Using=xpath, value=//input[@id='u_0_e'123]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -76,7 +66,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at captureScreenShot.FacebookFailedTest.captureScreenShot(FacebookFailedTest.java:36)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+at captureScreenShot.FBWrongAcc.facebookRun(FBWrongAcc.java:28)
+at captureScreenShot.FBSceeenshotFailedTest.shotRun(FBSceeenshotFailedTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,59 +93,64 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureScreenShot -->
-        <test-method status="PASS" signature="facebooktesting(org.testng.ITestResult)[pri:0, instance:captureScreenShot.FacebookFailedTest@6cd8737]" name="facebooktesting" is-config="true" duration-ms="463" started-at="2019-06-18T04:45:33Z" finished-at="2019-06-18T04:45:34Z">
+        </test-method> <!-- shotRun -->
+        <test-method status="PASS" signature="facebooktesting(org.testng.ITestResult)[pri:0, instance:captureScreenShot.FBSceeenshotFailedTest@4e04a765]" name="facebooktesting" is-config="true" duration-ms="328" started-at="2019-06-24T15:38:41Z" finished-at="2019-06-24T15:38:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=captureScreenShot status=FAILURE method=FacebookFailedTest.captureScreenShot()[pri:0, instance:captureScreenShot.FacebookFailedTest@6cd8737] output={null}]]]>
+                <![CDATA[[TestResult name=shotRun status=FAILURE method=FBSceeenshotFailedTest.shotRun()[pri:0, instance:captureScreenShot.FBSceeenshotFailedTest@4e04a765] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebooktesting -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:captureScreenShot.FacebookFailedTest@6cd8737]" name="tearDown" is-config="true" duration-ms="658" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:captureScreenShot.FBSceeenshotFailedTest@4e04a765]" name="tearDown" is-config="true" duration-ms="629" started-at="2019-06-24T15:38:41Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- captureScreenShot.FacebookFailedTest -->
-      <class name="com.maven.test.MathTest">
-        <test-method status="PASS" signature="sum()[pri:1, instance:com.maven.test.MathTest@6aaa5eb0]" name="sum" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+      </class> <!-- captureScreenShot.FBSceeenshotFailedTest -->
+      <class name="com.maven.test.ComputerTest">
+        <test-method status="PASS" signature="sum()[pri:1, instance:com.maven.test.ComputerTest@17550481]" name="sum" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sub()[pri:2, instance:com.maven.test.MathTest@6aaa5eb0]" name="sub" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+        <test-method status="PASS" signature="sub()[pri:2, instance:com.maven.test.ComputerTest@17550481]" name="sub" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="multi()[pri:3, instance:com.maven.test.MathTest@6aaa5eb0]" name="multi" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="div()[pri:4, instance:com.maven.test.MathTest@6aaa5eb0]" name="div" duration-ms="0" started-at="2019-06-18T04:45:34Z" finished-at="2019-06-18T04:45:34Z">
+      </class> <!-- com.maven.test.ComputerTest -->
+      <class name="com.maven.test.MathTest">
+        <test-method status="PASS" signature="div()[pri:4, instance:com.maven.test.MathTest@735f7ae5]" name="div" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
+        <test-method status="PASS" signature="sum()[pri:1, instance:com.maven.test.MathTest@735f7ae5]" name="sum" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="multi()[pri:3, instance:com.maven.test.MathTest@735f7ae5]" name="multi" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sub()[pri:2, instance:com.maven.test.MathTest@735f7ae5]" name="sub" duration-ms="0" started-at="2019-06-24T15:38:42Z" finished-at="2019-06-24T15:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
       </class> <!-- com.maven.test.MathTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

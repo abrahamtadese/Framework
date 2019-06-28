@@ -21,8 +21,10 @@ public class FBAccount {
 	
 	public void login(String name1, String name2) {
 		
-		emailID.clear(); emailID.sendKeys(name1);
-		passwordID.clear(); passwordID.sendKeys(name2);
+		emailID.clear();
+		emailID.sendKeys(name1);
+		passwordID.clear(); 
+		passwordID.sendKeys(name2);
 		log.click();
 	
 	}

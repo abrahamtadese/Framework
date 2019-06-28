@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15342" started-at="2019-06-21T18:58:42Z" finished-at="2019-06-21T18:58:57Z">
+  <suite name="Default suite" duration-ms="19630" started-at="2019-06-21T21:19:43Z" finished-at="2019-06-21T21:20:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15342" started-at="2019-06-21T18:58:42Z" finished-at="2019-06-21T18:58:57Z">
+    <test name="Default test" duration-ms="19630" started-at="2019-06-21T21:19:43Z" finished-at="2019-06-21T21:20:02Z">
       <class name="com.com.ebay_account.Ebay_accountTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="setUP" is-config="true" duration-ms="5889" started-at="2019-06-21T18:58:42Z" finished-at="2019-06-21T18:58:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="5037" started-at="2019-06-21T21:19:43Z" finished-at="2019-06-21T21:19:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="ebayignIn()[pri:0, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="ebayignIn" duration-ms="8808" started-at="2019-06-21T18:58:48Z" finished-at="2019-06-21T18:58:56Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ebaylogIn()[pri:1, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="ebaylogIn" duration-ms="7941" started-at="2019-06-21T21:19:48Z" finished-at="2019-06-21T21:19:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ebayignIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="626" started-at="2019-06-21T18:58:56Z" finished-at="2019-06-21T18:58:57Z">
+        </test-method> <!-- ebaylogIn -->
+        <test-method status="PASS" signature="ebaysignIn()[pri:2, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="ebaysignIn" duration-ms="5965" started-at="2019-06-21T21:19:56Z" finished-at="2019-06-21T21:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebaysignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.com.ebay_account.Ebay_accountTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="677" started-at="2019-06-21T21:20:01Z" finished-at="2019-06-21T21:20:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

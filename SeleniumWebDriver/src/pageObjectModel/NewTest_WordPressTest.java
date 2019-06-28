@@ -14,7 +14,7 @@ public class NewTest_WordPressTest {
   public void verifyValidLogin() throws InterruptedException {
 	  
 	  // this will launch browser and Url
-	 driver =   StartBrowser.launchBrowser("chrome", "http://demosite.center/wordpress/wp-login.php");
+	 driver =   StartBrowser.launchBrowser("chrome", "https://wordpress.com/log-in");
 	  
 	 //created page object using page factory
 	 wordPress loginPage =  PageFactory.initElements(driver, wordPress.class);

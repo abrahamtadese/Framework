@@ -14,13 +14,16 @@ public class wordPress  {
 		
 	}
 	
-	@FindBy(xpath=("//input[@id='user_login']")) WebElement userName;
-	@FindBy(xpath=("//input[@id='user_pass']")) WebElement passWord;
-	@FindBy(xpath=("//input[@id='wp-submit']")) WebElement logIn;
+	@FindBy(xpath="//input[@id='usernameOrEmail']") WebElement userName;
+	@FindBy(xpath="//button[@class='button form-button is-primary']") WebElement cont;
+	
+	@FindBy(xpath="//input[@id='password']") WebElement passWord;
+	@FindBy(xpath="//button[@class='button form-button is-primary']") WebElement logIn;
 	
 	public void starting(String name, String pass) {
 		
 		userName.sendKeys(name);
+		cont.click();
 		passWord.sendKeys(pass);
 		logIn.click();
 	}

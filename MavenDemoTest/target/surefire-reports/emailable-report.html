@@ -8,23 +8,23 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,948</td><td></td><td></td></tr>
+<tr><th colspan="7">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,485</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">captureScreenShot.FacebookFailedTest</td><td><a href="#m0">captureScreenShot</a></td><td rowspan="1">1560833131585</td><td rowspan="1">2080</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.maven.test.ChemTest</td><td><a href="#m1">div</a></td><td rowspan="1">1560833134796</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">multi</a></td><td rowspan="1">1560833134790</td><td rowspan="1">3</td></tr><tr class="passedodd"><td rowspan="2">com.maven.test.ComputerTest</td><td><a href="#m3">sub</a></td><td rowspan="1">1560833134797</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m4">sum</a></td><td rowspan="1">1560833134794</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="4">com.maven.test.MathTest</td><td><a href="#m5">div</a></td><td rowspan="1">1560833134798</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">multi</a></td><td rowspan="1">1560833134798</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">sub</a></td><td rowspan="1">1560833134797</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">sum</a></td><td rowspan="1">1560833134796</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">captureScreenShot.FBSceeenshotFailedTest</td><td><a href="#m0">shotRun</a></td><td rowspan="1">1561390721511</td><td rowspan="1">54</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.maven.test.ChemTest</td><td><a href="#m1">div</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">multi</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="2">com.maven.test.ComputerTest</td><td><a href="#m3">sub</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m4">sum</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="4">com.maven.test.MathTest</td><td><a href="#m5">div</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">multi</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">sub</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">sum</a></td><td rowspan="1">1561390722528</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">captureScreenShot.FacebookFailedTest#captureScreenShot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id=&apos;u_0_e&apos;1] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//input[@id=&apos;u_0_e&apos;1]&apos; is not a valid XPath expression.
-  (Session info: chrome=74.0.3729.169)
+<h2>Surefire test</h2><h3 id="m0">captureScreenShot.FBSceeenshotFailedTest#shotRun</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id=&apos;u_0_e&apos;123] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//input[@id=&apos;u_0_e&apos;123]&apos; is not a valid XPath expression.
+  (Session info: chrome=75.0.3770.100)
   (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-V2OLUBP4&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49730}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 35e6af338dad47b196050837903283b1
-*** Element info: {Using=xpath, value=//input[@id=&apos;u_0_e&apos;1]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\abrah\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 8da4e0065ef23512f8dc230d578631cc
+*** Element info: {Using=xpath, value=//input[@id=&apos;u_0_e&apos;123]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -37,8 +37,12 @@ Session ID: 35e6af338dad47b196050837903283b1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at captureScreenShot.FacebookFailedTest.captureScreenShot(FacebookFailedTest.java:36)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at captureScreenShot.FBWrongAcc.facebookRun(FBWrongAcc.java:28)
+	at captureScreenShot.FBSceeenshotFailedTest.shotRun(FBSceeenshotFailedTest.java:28)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.maven.test.ChemTest#div</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.maven.test.ChemTest#multi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.maven.test.ComputerTest#sub</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
